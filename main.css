@@ -1,0 +1,361 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    direction: rtl;
+}
+
+html {
+    font-family: 'Tajawal', sans-serif;
+    color: rgb(6, 38, 77);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(6, 38, 77);
+    position: relative;
+}
+
+.menu {
+    margin: 0 0px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+span {
+    color: rgb(254, 41, 104);
+    font-weight: bold;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+        color: white;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        color: rgb(6, 38, 77);
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        background-color: white;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .images-of-corona-list {
+        text-align: center;
+        background-color: rgb(6, 38, 77);
+    }
+    .corona-images {
+        width: 350px;
+        height: 350px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 5px solid rgb(217, 243, 255);
+    }
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-left: 85px;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.check-position {
+    direction: rtl;
+    padding-right: 20px;
+}
+
+.btnselfcheck {
+    color: rgb(254, 41, 104);
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 150px;
+    border-style: solid;
+    border-color: rgb(254, 41, 104);
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    margin-top: 89px;
+}
+
+.contents {
+    width: auto;
+    background-color: rgb(254, 41, 104);
+    border-bottom: 10px solid rgb(254, 41, 104);
+    direction: rtl;
+    height: 430px;
+    text-align: center;
+}
+
+.content-title {
+    color: rgb(6, 38, 77);
+    font-size: 72px;
+    letter-spacing: 2px;
+    padding-top: 200px;
+}
+
+.virus-png {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-size: url(xxx.png);
+    background-repeat: no-repeat;
+    background-color: rgb(254, 41, 104);
+}
+
+#top-image {
+    width: 100%;
+    height: 650px;
+    float: right;
+    align-self: center;
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-image-text {
+    text-align: center;
+    color: rgb(6, 38, 77);
+    padding-top: 100px;
+    font-size: 22px;
+}
+
+table {
+    margin-top: 100px;
+    padding: 0px;
+    border-spacing: 15px;
+    text-align: center;
+    width: 100%
+}
+
+#healthy {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+
+#sick {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+#cured {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(6, 38, 77);
+    ;
+}
+
+#suspected {
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+}
+
+.description {
+    background-color: rgb(217, 243, 255);
+    color: rgb(6, 38, 77);
+    font-size: 22px;
+    direction: rtl;
+    width: auto;
+    line-height: 80px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.corona-about-title {}
+
+.about-corona {
+    width: auto;
+    padding-top: 50px;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.corona-symptoms {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-grid;
+}
+
+.images-of-corona-list {
+    text-align: center;
+}
+
+.corona-images {
+    width: 350px;
+    height: 350px;
+}
+
+.security {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.emergency {}
+
+.emergency-title {
+    font-size: 22px;
+}
+
+.emergency-content {
+    font-weight: bold;
+}
+
+.footer-distributed {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: right;
+    line-height: 70px;
+    background-color: rgb(6, 38, 77);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px 'Tajawal';
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+.footer-distributed h3 {
+    color: white;
+    font: normal 36px 'Tajawal';
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: rgb(254, 41, 104);
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-app-name {
+    color: rgb(254, 41, 104);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: rgb(6, 38, 77);
+    color: whites font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+.footer-distributed .footer-app-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px 'Tajawal';
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+    .main {
+        line-height: normal;
+        font-size: auto;
+    }
+}
